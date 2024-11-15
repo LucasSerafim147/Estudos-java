@@ -1,0 +1,14 @@
+package MANOS;
+
+public class trocarVariavel {
+	public static void main(String[] args) {
+	String x = "Agua";
+	String y = " Suco";
+	
+	x=y;
+	y=x;
+	
+	System.out.println("X é "+ x);
+	System.out.println("Y é "+ y);
+}
+}

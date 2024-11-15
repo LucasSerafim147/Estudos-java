@@ -1,0 +1,17 @@
+package MANOS;
+
+import java.util.Scanner;
+
+public class UserInput {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Qual seu nome? ");
+		String nome = entrada.nextLine();
+		System.out.println("qual sua idade? ");
+		int idade = entrada.nextInt();
+		
+		System.out.println("Olá "+ nome);
+		System.out.println("Você tem"  +idade+ "anos de idade! ");
+	}
+
+}
